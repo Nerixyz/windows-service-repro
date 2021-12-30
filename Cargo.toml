@@ -1,0 +1,10 @@
+[package]
+name = "service-repro"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+windows = { version = "0.29", features = ["Media_Control", "Foundation_Collections", "Foundation", "std"] }
+time = "0.3"
